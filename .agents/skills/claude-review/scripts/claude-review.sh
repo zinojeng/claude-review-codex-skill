@@ -6,9 +6,9 @@ CONTEXT_LINES="${CLAUDE_REVIEW_CONTEXT_LINES:-40}"
 TIMEOUT_SECONDS="${CLAUDE_REVIEW_TIMEOUT_SECONDS:-300}"
 DIFF_CMD=()
 
-PROMPT='You are an independent senior code reviewer. Review the git diff from stdin.
-Focus only on high-confidence correctness, security, concurrency, data-loss, API-contract, and regression risks.
-Do not comment on style unless it creates a real bug.
+PROMPT='You are an independent senior project reviewer. Review the git diff from stdin.
+Focus only on high-confidence correctness, security, data-loss, broken links/references, API-contract, documentation-contract, and regression risks.
+Do not comment on style unless it creates a real bug, ambiguity, or user-facing documentation problem.
 Do not edit files.
 If the diff is empty, say that there are no changes to review.
 Output:

@@ -1,11 +1,11 @@
 ---
 name: claude-review
-description: Use the local Claude Code CLI as an independent read-only reviewer for the current git diff or a branch diff. Trigger when the user asks Codex to ask Claude, use Claude Code, get a Claude second opinion, or run an adversarial code review.
+description: Use the local Claude Code CLI on this Mac as an independent read-only reviewer for the current git diff or a branch diff. Trigger when the user asks Codex to ask Claude, use Claude Code, get a Claude second opinion, or run an adversarial project review.
 ---
 
 # Claude Review
 
-Use the local Claude Code CLI as an independent read-only reviewer. Claude is a second opinion, not ground truth.
+Use the local Claude Code CLI on this Mac as an independent read-only reviewer for code, docs, wiki, config, and other project diffs. Claude is a second opinion, not ground truth.
 
 ## Workflow
 
